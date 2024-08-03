@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/main.css">
+    <title>ProFit</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="logo ProFit" style="max-height: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-body-emphasis" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-body-emphasis" href="secciones/producto.html">Producto</a></li>
+                    <li class="nav-item"><a class="nav-link text-body-emphasis" href="secciones/contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link text-body-emphasis" href="secciones/testimonios.html">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link text-body-emphasis" href="secciones/documentacion.html">Documentación</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Encuentra Product Market Fit más rápido</h1>
+        <section class="demo">
+            <div class="parrafo-demo">
+                <p>Utilizamos AI para ayudarte a calificar leads más rápido, tener un market research más acertado y sobretodo ahorrarte mucho tiempo y dinero.</p>
+            </div>
+            <div class="video-demo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QlkqWUYuDHM?si=_xdPE8psyEhyGmaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <div class="contenedor-boton">
+            <a href="#" class="boton-demo">¡Pide un Demo!</a>
+        </div>
+
+        <form class="row g-3" action="">
+            <fieldset>
+                <legend>Formulario</legend>
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nombre y apellido</label>
+                    <input type="text" class="form-control" id="name" placeholder="Santiago Altman">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="teamo@gmail.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="select" class="form-label">Cargo</label>
+                    <select id="select" class="form-select">
+                        <option value="ceo">CEO</option>
+                        <option value="sales-manager">Gerente ventas</option>
+                        <option value="growth-manager">Growth</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <input type="submit" class="btn btn-primary" value="Enviar Formulario">
+                    <input type="reset" class="btn btn-secondary" value="Borrar todo">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados</p>
+        <p>made by Santiago González</p>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
